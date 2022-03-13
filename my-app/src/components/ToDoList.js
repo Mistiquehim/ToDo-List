@@ -37,7 +37,7 @@ export const TodoList = () => {
                 {!todo.edited ? <div>{todo.content}</div> : <input className="inp-box" placeholder={todo.content} value={value} onChange={handleList} />}
                 <div className="btn-container">
                     <div className="status-input">
-                        <input id="status" type="checkbox" checked={todo.completed} disabled={todo.edited} onChange={() => handleStatus(todo.id)} /> {!todo.completed ? <label for="status">Incomplete</label> : <label for="status">Complete</label>}
+                        <input id={todo.id} type="checkbox" checked={todo.completed} disabled={todo.edited} onChange={() => handleStatus(todo.id)} /> {!todo.completed ? <label for={todo.id}>Incomplete</label> : <label for={todo.id}>Complete</label>}
                     </div>
                     {todo.edited ? <div className="btn edit" onClick={() => updateList(todo.id, todo.content)}>Update</div> : <div className="btn" onClick={() => editList(todo.id)}>Edit</div>}
                     <div className="btn delete" onClick={() => deleteList(todo.id)}>Delete</div>
