@@ -10,7 +10,7 @@ When user click on Edit, then he/she will not be able to update status of list.
 
 In this application Node js (V:- 16.13.1) is used to serve.
 
-The application is deployed on Heroku
+The application is deployed on Heroku: https://todo-list-app-getir.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
