@@ -1,0 +1,15 @@
+form {
+    margin-bottom: 20px;
+}
+.add-btn {
+    background: cadetblue;
+    border: cadetblue;
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.todo-inp {
+    padding: 6px;
+    width: 30%;
+}

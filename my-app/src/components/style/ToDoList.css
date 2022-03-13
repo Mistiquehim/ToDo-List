@@ -1,0 +1,47 @@
+.list {
+    width: 60%;
+    display: inline-flex;
+    border: 1px solid #e4e4e4;
+    padding: 10px;
+    justify-content: space-between;
+}
+.btn-container {
+    display: inline-flex;
+    align-items: center;
+}
+.btn {
+    background: #e4e4e4;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn:first-child {
+    margin-right: 10px;
+}
+.status-input {
+    margin-right: 10px;
+}
+.incomplete {
+    background-color: lightgray;
+}
+.complete {
+    background-color: darkgray;
+}
+.inp-box {
+    border: 0;
+}
+.status-input input {
+    cursor: pointer;
+}
+.status-input input:disabled {
+    pointer-events: none;
+}
+.delete {
+    background: indianred;
+    color: #ffffff;
+}
+.edit {
+    background: darkcyan;
+    color: #ffffff;
+}
